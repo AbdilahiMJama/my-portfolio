@@ -8,15 +8,20 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
+import { useRouter } from "next/router";
 
 const navigation = [
   {
+    name: "Home",
+    href: "/",
+  },
+  {
     name: "About Me",
-    href: "/about",
+    href: "/components/about",
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "/components/contact",
   },
 ];
 
