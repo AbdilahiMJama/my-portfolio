@@ -8,7 +8,6 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import { useRouter } from "next/router";
 
 const navigation = [
   {
@@ -43,12 +42,15 @@ export function NavBar() {
           </p>
         </NavbarBrand>
         <NavbarContent
-          className="hidden sm:flex gap-4 relative font-bold"
+          className="hidden sm:flex gap-4 relative font-bold text-blue-700 dark:text-blue-500"
           justify="center"
         >
           {navigation.map((item, index) => (
             <NavbarItem key={index}>
-              <Link color="foreground" href={item.href}>
+              <Link
+                className="focus:outline-none hover:text-white hover:bg-blue-700 px-2 py-1 rounded transition-colors duration-300"
+                href={item.href}
+              >
                 {item.name}
               </Link>
             </NavbarItem>
