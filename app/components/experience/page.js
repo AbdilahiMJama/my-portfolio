@@ -107,6 +107,13 @@ export default function Experience() {
             Tailored my approach to cater the needs of the students and adapt to
             various learning styles and skill levels.
           </p>
+        </div>
+      ),
+    },
+    {
+      title: "August 2022 - May 2024",
+      content: (
+        <div>
           <p className="text-xs md:text-xl font-normal relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
             Teaching / Lab Assistant for Introduction to Programming with
             Python:
