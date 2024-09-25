@@ -1,7 +1,7 @@
 import { divider } from "@nextui-org/react";
 import { NavBar } from "../navbar/page";
 import { Spotlight } from "../ui/spotlight";
-import picture from "../../../public/images/bitmoji.jpg";
+import profilePic from "../../../public/images/abdilahi.png";
 import React from "react";
 import Image from "next/image";
 export default function About() {
@@ -20,6 +20,12 @@ export default function About() {
           development and I'm always looking for opportunities to learn and
           grow.
         </p>
+        <Image
+          src={profilePic}
+          alt="Picture of the author"
+          height={200}
+          width={200}
+        />
       </div>
     </div>
   );
