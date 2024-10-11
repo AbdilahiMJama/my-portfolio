@@ -15,12 +15,17 @@ export default function Experience() {
             Systemic Lupus Erythematosus (SLE) project:
           </p>
           <p className="font-normal text-sm relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 mb-4">
-            - Led a team of 4 in creating a dataset containing butterfly rash
-            and facial rash images and design an extract transform load (ETL)
-            pipeline to store the data in a database.
-            <br />- Developed a state of the art of convolutonal neural network
-            based model to detect butterfly malar rash from facial images and
-            draft a conference paper.
+            - Systemic Lupus Erythematosus (SLE) is a chronic autoimmune disease
+            that causes the body to attack its own cells, tissues and organs.
+            One of its important features is a butterfly malar rash, this rash
+            appears on the nose bridge and the cheeks. It mimics the shape of
+            the wings of a butterfly, hence the name. <br />- The project aims
+            to develop a deep learning model to classify the butterfly malar
+            rash in patients with SLE.The first step is creating a usable
+            dataset (1000+ images) by scraping images from the internet and then
+            augmenting the images to 224 by 224. In addition, we use transfer
+            learning which is the use of pretrained models on a larger dataset
+            such as the Imagenet datasest.{" "}
           </p>
           <p className="text-xs md:text-xl font-normal relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
             Research: Federated Learning and Continuous Autonomous Vehicles.
@@ -44,13 +49,17 @@ export default function Experience() {
             Technology Consulting Intern at DXC Technology.
           </p>
           <p className="text-xs md:text-sm font-normal relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-            - Supported the performance engineering team in fraud detection
-            through analyzing and monitoring database metrics.
-            <br /> - Refactored a multi-step analysis program in Java and Spring
-            Boot to a one step program to increase efficiency and performance.{" "}
-            <br /> - Developed a testing environment for data monitoring,
-            utilizing log tools in Java to improve and half the time of problem
-            solving.
+            - First internship experience with a great company. I had the
+            opportunity to work with the performance engineering team that
+            specifically the fraud detection team that is consulting with
+            Mastercard.
+            <br />
+            - I was able to learn a lot about the industry and the importance of
+            performance engineering and fraud detection. - I worked on a project
+            that involved refactoring a multi-step analysis program in Java and
+            Spring Boot that creates multiple graphs for easier analysis.
+            <br />- My favorite quote by my mentor was "An expert knows one more
+            thing than you do". Something that I will always remember.
           </p>
         </div>
       ),
@@ -83,13 +92,11 @@ export default function Experience() {
             Astronomy Project: Merging galaxies detection system:
           </p>
           <p className=" text-xs md:text-sm font-normal relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 mb-4">
-            - Developed and applied machine learning tools to automate the
-            identification of specific types of galaxies in a dataset obtained
-            from images captured by the James Webb Space Telescope.
-            <br /> - Focused on identifying galaxies that are merging or have
-            recently merged with other galaxies in their vicinity.
-            <br />- Utilized: Python-based libraries such as NumPy, Pandas,
-            Matplotlib, and Scikit-learn.
+            - This school project aimed to classify merging galaxies from
+            non-merging galaxies using machine learning. The dataset was
+            obtained from the James Webb Space Telescope. - The dataset was
+            preprocessed with the help of python packages such as Astropy that
+            is specific for astronomical data.
           </p>
         </div>
       ),
@@ -102,10 +109,13 @@ export default function Experience() {
             MavPASS Leader : Data Structures with Java:
           </p>
           <p className=" text-xs md:text-sm font-normal relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 mb-4">
-            - Supported students in challenging courses such as Introduction to
-            Programming with Python and Data Structures with Java. <br /> -
-            Tailored my approach to cater the needs of the students and adapt to
-            various learning styles and skill levels.
+            - <b>Maverick Peer facilitated Academic Support System (MavPASS)</b>{" "}
+            is a peer-led academic support program that provides students with
+            the opportunity to work with a peer leader who has successfully
+            completed the course.
+            <br />- Working with peers is a great way to learn and teach since
+            it helped reinforce the concepts that I learnt. I was able to help
+            students understand the concepts of Data Structures with Java.
           </p>
         </div>
       ),
