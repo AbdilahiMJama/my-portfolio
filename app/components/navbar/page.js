@@ -43,7 +43,7 @@ export function NavBar() {
           </p>
         </NavbarBrand>
         <NavbarContent
-          className="hidden sm:flex gap-4 relative font-bold text-blue-700 dark:text-blue-500"
+          className="hidden sm:flex gap-4 relative font-bold text-blue-700 dark:text-blue-500 py-8"
           justify="center"
         >
           {navigation.map((item, index) => (

@@ -13,7 +13,7 @@ export default function About() {
         <h1 className="text-3xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
           About Me
         </h1>
-        <div className="grid grid-cols-2 gap-4 items-center justify-center mx-auto max-w-3xl">
+        <div className="grid grid-cols-2 gap-4 items-center justify-center mx-auto max-w-4xl">
           <div className="flex justify-center">
             <Image
               src={profilePic}
@@ -28,13 +28,19 @@ export default function About() {
               University - Mankato. I'm majoring in Computer Science with a
               minor in Mathematics.My journey has been nothing but full of
               learning and gaining new experiences.I've been part of great AI
-              and full stack projects both in school and personal. In addition,
-              I was part of the internship program at DXC Technology where I
-              gained professional experience in the field of IT.
+              and full stack projects both in school and personal.
             </p>
           </div>
         </div>
-        <h1 className="text-4xl "></h1>
+        <div className="grid grid-cols-1 gap-4 items-center justify-center mx-auto max-w-4xl">
+          <div className="flex">
+            <p className="text-neutral-300">
+              Beyond my academic life, I'm an avid sports fan. I love watching
+              soccer, football and other sports. I'm a huge fan of Arsenal FC
+              and the Baltimore Ravens.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
