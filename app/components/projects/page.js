@@ -44,6 +44,11 @@ export const personalProjects = [
       "A simple flashcard app for learning with an AI learning assistant.",
     link: "https://github.com/AbdilahiMJama/flashcard-saas",
   },
+  {
+    title: "First Personal Website",
+    description: "A simple html, css (sass) and javascript portfolio.",
+    link: "https://github.com/AbdilahiMJama/Personal-Website",
+  },
 ];
 
 export default function Projects() {

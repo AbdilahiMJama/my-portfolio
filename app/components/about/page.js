@@ -112,24 +112,54 @@ export default function About() {
                         Native
                       </p>
                       <div className="inline-flex gap-2">
-                        <Image src={kenya} height={20} width={20}></Image>
-                        <Image src={somaliland} height={20} width={20}></Image>
-                        <Image src={somalia} height={20} width={20}></Image>
+                        <Image
+                          src={kenya}
+                          height={20}
+                          width={20}
+                          alt="kenya"
+                        ></Image>
+                        <Image
+                          src={somaliland}
+                          height={20}
+                          width={20}
+                          alt="lander"
+                        ></Image>
+                        <Image
+                          src={somalia}
+                          height={20}
+                          width={20}
+                          alt="xamar"
+                        ></Image>
                       </div>
                     </div>
                     <div>
                       <p className="text-lg font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 mb-2">
                         Fluent
                       </p>
-                      <Image src={germany} height={20} width={20}></Image>
+                      <Image
+                        src={germany}
+                        height={20}
+                        width={20}
+                        alt="de"
+                      ></Image>
                     </div>
                     <div>
                       <p className="text-lg font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 mb-2">
                         Learning:
                       </p>
                       <div className="inline-flex gap-2">
-                        <Image src={brazil} height={20} width={20}></Image>
-                        <Image src={italy} height={20} width={20}></Image>
+                        <Image
+                          src={brazil}
+                          height={20}
+                          width={20}
+                          alt="br"
+                        ></Image>
+                        <Image
+                          src={italy}
+                          height={20}
+                          width={20}
+                          alt="it"
+                        ></Image>
                       </div>
                     </div>
                   </div>
