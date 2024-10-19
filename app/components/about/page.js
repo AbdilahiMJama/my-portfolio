@@ -3,6 +3,13 @@ import { NavBar } from "../navbar/page";
 import { Spotlight } from "../ui/spotlight";
 import { HoverEffect } from "../ui/card-hover-effect";
 import profilePic from "../../../public/images/abdilahi.png";
+import kenya from "../../../public/images/kenya.png";
+import germany from "../../../public/images/germany.png";
+import italy from "../../../public/images/italy.png";
+import brazil from "../../../public/images/brazil.png";
+import somaliland from "../../../public/images/somaliland.png";
+import somalia from "../../../public/images/somalia.png";
+
 import React from "react";
 import Image from "next/image";
 
@@ -41,31 +48,31 @@ export default function About() {
           <div className="flex">
             <div className="grid grid-cols-3 grid-flow-col gap-4">
               <div className="my-5">
-                <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
                   Sports
                 </h1>
-                <p className="text-neutral-300 mx-4">
+                <p className="text-neutral-300 mx-5">
                   Beyond my academic life, I'm an avid sports fan. I love
                   watching soccer, football and other sports. I'm a huge fan of
                   Arsenal FC and the Baltimore Ravens.
                 </p>
               </div>
               <div className="my-5">
-                <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
-                  Deep Learning and AI
+                <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                  TBC....
                 </h1>
-                <p className="text-neutral-300 mx-4">
-                  I went down the rabbit hole of AI and deep learning and I've
-                  been hooked ever since. I've worked on projects that involve
-                  computer vision, natural language processing and more.
+                <p className="text-neutral-300 mx-5">
+                  "Coming soon" ~ Abdilahi Jama
                 </p>
               </div>
               <div className="my-5">
-                <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
                   Learning new languages
                 </h1>
-                <p className="text-neutral-300 mx-4">
-                  Previously on my interests....
+                <p className="text-neutral-300 mx-5 italic">
+                  " If you speak to a man in a language he understands, that
+                  goes to his head. If you speak to him in his language, that
+                  goes to his heart ". ~ Nelson Mandela
                 </p>
               </div>
             </div>
@@ -77,7 +84,7 @@ export default function About() {
             <div className="flex">
               <div className="grid grid-cols-3 grid-flow-col gap-4">
                 <div className="my-5">
-                  <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                  <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
                     Full Stack Engineering
                   </h1>
                   <p className="text-neutral-300 mx-3">
@@ -86,7 +93,7 @@ export default function About() {
                   </p>
                 </div>
                 <div className="my-5">
-                  <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                  <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
                     Deep Learning and AI
                   </h1>
                   <p className="text-neutral-300 mx-4">
@@ -96,12 +103,36 @@ export default function About() {
                   </p>
                 </div>
                 <div className="my-5">
-                  <h1 className="text-2xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
-                    To be continued...
+                  <h1 className="text-xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
+                    Languages
                   </h1>
-                  <p className="text-neutral-300 mx-4">
-                    Previously on my interests....
-                  </p>
+                  <div className="grid grid-cols-3 grid-flow-col gap-4 my-4">
+                    <div>
+                      <p className="text-lg font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 mb-2">
+                        Native
+                      </p>
+                      <div className="inline-flex gap-2">
+                        <Image src={kenya} height={20} width={20}></Image>
+                        <Image src={somaliland} height={20} width={20}></Image>
+                        <Image src={somalia} height={20} width={20}></Image>
+                      </div>
+                    </div>
+                    <div>
+                      <p className="text-lg font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 mb-2">
+                        Fluent
+                      </p>
+                      <Image src={germany} height={20} width={20}></Image>
+                    </div>
+                    <div>
+                      <p className="text-lg font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 mb-2">
+                        Learning:
+                      </p>
+                      <div className="inline-flex gap-2">
+                        <Image src={brazil} height={20} width={20}></Image>
+                        <Image src={italy} height={20} width={20}></Image>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
