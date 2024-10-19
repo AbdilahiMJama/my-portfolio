@@ -141,7 +141,7 @@ export default function Experience() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full rounded-md bg-black/[0.96] antialiased bg-grid-white/[0.02] relative flex flex-col">
       <Timeline data={data} />
     </div>
   );
