@@ -42,8 +42,8 @@ export default function About() {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4 items-center justify-center mx-auto max-w-4xl">
-          <h1 className="text-3xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 my-5">
-            Interests
+          <h1 className="text-3xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500 my-7">
+            Interests and Hobbies
           </h1>
           <div className="flex">
             <div className="grid grid-cols-3 grid-flow-col gap-4">
@@ -78,9 +78,6 @@ export default function About() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 items-center justify-center mx-auto max-w-4xl my-5">
-            <h1 className="text-3xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
-              Skills
-            </h1>
             <div className="flex">
               <div className="grid grid-cols-3 grid-flow-col gap-4">
                 <div className="my-5">
