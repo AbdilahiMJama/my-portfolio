@@ -37,3 +37,6 @@ next-env.d.ts
 
 # images
 /public
+ 
+# for future use
+/app/components/ui/card-hover-effect.js

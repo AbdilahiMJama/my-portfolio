@@ -27,10 +27,6 @@ const navigation = [
     name: "Projects",
     href: "/components/projects",
   },
-  {
-    name: "Contact",
-    href: "/components/contact",
-  },
 ];
 
 export function NavBar() {
