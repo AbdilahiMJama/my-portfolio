@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { NavBar } from "../navbar/page";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
