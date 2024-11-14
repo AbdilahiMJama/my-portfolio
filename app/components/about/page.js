@@ -1,3 +1,4 @@
+"use client";
 import { divider } from "@nextui-org/react";
 import { NavBar } from "../navbar/page";
 import { Spotlight } from "../ui/spotlight";

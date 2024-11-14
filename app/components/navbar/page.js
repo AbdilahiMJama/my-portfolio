@@ -8,7 +8,6 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-import { useRouter } from "next/router";
 
 const navigation = [
   {
