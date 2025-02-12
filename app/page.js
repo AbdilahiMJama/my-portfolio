@@ -1,5 +1,5 @@
-import { GridBackgroundDemo } from "./components/background/background";
-import { NavBar } from "./components/navbar/navbar";
+import { GridBackgroundDemo } from "./components/background";
+import { NavBar } from "./components/navbar";
 
 export default function Home() {
   return <GridBackgroundDemo></GridBackgroundDemo>;

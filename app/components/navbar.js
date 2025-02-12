@@ -16,15 +16,15 @@ const navigation = [
   },
   {
     name: "About Me",
-    href: "/components/about",
+    href: "/about",
   },
   {
     name: "Work",
-    href: "/components/experience",
+    href: "/experience",
   },
   {
     name: "Projects",
-    href: "/components/projects",
+    href: "/projects",
   },
 ];
 

@@ -1,6 +1,6 @@
 "use client";
-import { NavBar } from "../navbar/navbar";
-import { HoverEffect } from "../ui/card-hover-effect";
+import { NavBar } from "../components/navbar";
+import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export const schoolProjects = [
   {

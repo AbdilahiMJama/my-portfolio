@@ -1,15 +1,15 @@
 "use client";
 import { divider } from "@nextui-org/react";
-import { NavBar } from "../navbar/navbar";
-import { Spotlight } from "../ui/spotlight";
-import { HoverEffect } from "../ui/card-hover-effect";
-import profilePic from "../../../public/images/abdilahi.png";
-import kenya from "../../../public/images/kenya.png";
-import germany from "../../../public/images/germany.png";
-import italy from "../../../public/images/italy.png";
-import brazil from "../../../public/images/brazil.png";
-import somaliland from "../../../public/images/somaliland.png";
-import somalia from "../../../public/images/somalia.png";
+import { NavBar } from "../components/navbar";
+import { Spotlight } from "../components/ui/spotlight";
+import { HoverEffect } from "../components/ui/card-hover-effect";
+import profilePic from "@/public/images/abdilahi.png";
+import kenya from "@/public/images/kenya.png";
+import germany from "@/public/images/germany.png";
+import italy from "@/public/images/italy.png";
+import brazil from "@/public/images/brazil.png";
+import somaliland from "@/public/images/somaliland.png";
+import somalia from "@/public/images/somalia.png";
 
 import React from "react";
 import Image from "next/image";
