@@ -6,7 +6,7 @@ import {
   motion,
 } from "framer-motion";
 import React, { useEffect, useState, useRef } from "react";
-import { NavBar } from "../navbar/page";
+import { NavBar } from "../navbar/navbar";
 
 export const Timeline = ({ data }) => {
   const ref = useRef(null);

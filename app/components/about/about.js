@@ -1,6 +1,6 @@
 "use client";
 import { divider } from "@nextui-org/react";
-import { NavBar } from "../navbar/page";
+import { NavBar } from "../navbar/navbar";
 import { Spotlight } from "../ui/spotlight";
 import { HoverEffect } from "../ui/card-hover-effect";
 import profilePic from "../../../public/images/abdilahi.png";

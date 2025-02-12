@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { NavBar } from "../navbar/page";
+import { NavBar } from "../navbar/navbar";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 
 export function GridBackgroundDemo() {
