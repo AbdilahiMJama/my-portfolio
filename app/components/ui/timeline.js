@@ -36,7 +36,7 @@ export const Timeline = ({ data }) => {
       <div className="max-w-7xl mx-auto py-1 px-4 md:px-8 lg:px-10">
         <NavBar />
         <h2 className="text-lg md:text-4xl mb-4 dark:text-white max-w-4xl my-20 font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
-          Timeline of my career.
+          My timeline.
         </h2>
         <p className="text-neutral-200 dark:text-neutral-300 text-sm md:text-base max-w-sm font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
           I&apos;m currently a Computer Science student at Minnesota State

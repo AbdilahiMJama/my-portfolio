@@ -20,9 +20,6 @@ export default function About() {
       <NavBar />
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="blue" />
       <div className=" p-4 m-20 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-        <h1 className="text-3xl text-center font-bold relative z-20 bg-clip-text bg-gradient-to-b text-blue-700 dark:text-blue-500">
-          About Me
-        </h1>
         <div className="grid grid-cols-2 gap-4 items-center justify-center mx-auto max-w-4xl">
           <div className="flex justify-center">
             <Image

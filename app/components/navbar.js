@@ -6,7 +6,6 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 
 const navigation = [
@@ -32,11 +31,6 @@ export function NavBar() {
   return (
     <Navbar shouldHideOnScroll>
       <div className="flex justify-center w-full sm:flex gap-4">
-        <NavbarBrand>
-          <p className="text-sm font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-            ABDIWAWI
-          </p>
-        </NavbarBrand>
         <NavbarContent
           className="hidden sm:flex gap-4 relative font-bold text-blue-700 dark:text-blue-500 py-8"
           justify="center"
